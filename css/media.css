@@ -1,0 +1,35 @@
+@media screen and (max-width: 746px) {
+        .content__item {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            margin-bottom: 70px;
+            
+        }
+        .vacansy__right {
+            padding-top: 30px;
+        }
+        .vacansy__avatar {
+            position: absolute;
+            top: -50px;
+            left: -50px;
+        }
+        .container {
+            max-width: 320px;
+        }
+}
+@media screen and (max-width: 746px) {
+        .vacansy__avatar {
+            top: -80px;
+            left: 110px;
+        }
+        .vacansy__list {
+            justify-content: space-between;
+        }
+        .vacansy__list--item {
+            margin-bottom: 10px;
+        }
+        .content__item {
+            margin-bottom: 100px;
+        }
+}

@@ -1,0 +1,95 @@
+.vacansy__avatar {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    border-radius: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vacansy__name  {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #699B9A;
+    margin-right: 13px;
+}
+
+.vacansy__actual  {
+    background: #323232;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 5px 9px 5px 10px;
+}
+
+.vacansy__title  {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #182120;
+    margin: 7px 0 17px 0;
+}
+
+.vacansy__details--item  {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #B6B6B6;
+    margin-right: 22px;
+    border-bottom: 3px #FFFFFF solid ;
+}
+.vacansy__details--item:hover {
+    border-bottom: 3px #000 solid ;
+}
+
+.vacansy__list--item  {
+    text-align: center;
+    width: 60px;
+    height: 21px;
+    background: #C4C4C4;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #699999;
+    margin: 0 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.vacansy__list--item:hover {
+    color: #C4C4C4;
+    background:#699999 ;
+    box-shadow: 0 0 5px 5px #ccc;
+    margin-right: 40px;
+}
+
+.content__item {
+    background: white;
+    justify-content: space-between;
+    padding: 25px 35px;
+    margin-bottom: 40px;
+}
+.vacansy__list--item {
+    margin-left: 20px;
+    
+}
+.vacansy__info {
+    margin-left: 25px;
+}
+.vacansy__content {
+    padding-top: 84px;;
+}
+.avatarkalol {
+    max-width: 100%;
+    min-height: 100%;
+}
